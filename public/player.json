@@ -1,0 +1,134 @@
+[
+  { 
+    "id": 1,
+    "playerImage": "https://i.ibb.co.com/5XRbr3s8/mushfiqur-rahim.jpg",
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicketkeeper-Batsman",
+    "rating": 84,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "N/A",
+    "bplPrice": 136000
+  },
+  {
+    "id": 2,
+    "playerImage": "https://i.ibb.co.com/pvrvSmvL/babar-azam.jpg",
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playingRole": "Batsman",
+    "rating": 92,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "bplPrice": 200000
+  },
+  {
+    "id": 3,
+    "playerImage": "https://i.ibb.co.com/MxMXnPL4/ben-stokes.jpg",
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playingRole": "All-rounder",
+    "rating": 90,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm fast-medium",
+    "bplPrice": 255000
+  },
+  {
+    "id": 4,
+    "playerImage": "https://i.ibb.co.com/b5JRHdP3/jasprit-bumrah.png",
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playingRole": "Bowler",
+    "rating": 89,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "bplPrice": 209000
+  },
+  {
+    "id": 5,
+    "playerImage": "https://i.ibb.co.com/VcK9NmXH/shakib.jpg",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 91,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm orthodox",
+    "bplPrice": 273000
+  },
+  {
+    "id": 6,
+    "playerImage": "https://i.ibb.co.com/JFzWw4s7/Rohit-Sharma.jpg",
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playingRole": "Batsman",
+    "rating": 88,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "bplPrice": 191000
+  },
+  {
+    "id": 7,
+    "playerImage": "https://i.ibb.co.com/mrzp6WFT/Pat-Cummins.jpg",
+    "playerName": "Pat Cummins",
+    "playerCountry": "Australia",
+    "playingRole": "Bowler",
+    "rating": 87,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "bplPrice": 218000
+  },
+  {
+    "id": 8,
+    "playerImage": "https://i.ibb.co.com/B5XsxS62/Andre.jpg",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playingRole": "All-rounder",
+    "rating": 89,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "bplPrice": 236000
+  },
+  {
+    "id": 9,
+    "playerImage": "https://i.ibb.co.com/TMGF42y3/Kane-Williamson.jpg",
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playingRole": "Batsman",
+    "rating": 90,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "bplPrice": 182000
+  },
+  {
+    "id": 10,
+    "playerImage": "https://i.ibb.co.com/S7RfStY8/Rashid-Khan.jpg",
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playingRole": "Bowler",
+    "rating": 93,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm leg break",
+    "bplPrice": 245000
+  },
+  {
+    "id": 11,
+    "playerImage": "https://i.ibb.co.com/zHb9QVdx/Glenn-Maxwell.jpg",
+    "playerName": "Glenn Maxwell",
+    "playerCountry": "Australia",
+    "playingRole": "All-rounder",
+    "rating": 86,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "bplPrice": 200000
+  },
+  {
+    "id": 12,
+    "playerImage": "https://i.ibb.co.com/5gn5tgT4/Tamim.jpg",
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 85,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm medium",
+    "bplPrice": 164000
+  }
+]
