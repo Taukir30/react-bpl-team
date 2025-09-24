@@ -7,7 +7,7 @@ const Card = ({player}) => {
         <div className='sora'>
             <div className="card bg-base-100 w-auto shadow-sm border border-[#D9D9D9] rounded-xl">
                 <figure className='p-5'>
-                    <img className='rounded-xl h-[180px]' src={player.playerImage} alt="Shoes" />
+                    <img className='rounded-xl h-[180px] object-cover' src={player.playerImage} alt="Shoes" />
                 </figure>
                 <div className="card-body pt-0">
                     <h2 className="card-title font-semibold text-base">
@@ -28,7 +28,7 @@ const Card = ({player}) => {
                         </div>
                         <div className="row flex justify-between">
                             <span className='font-semibold'> {player.battingStyle} </span>
-                            <span className='text-gray-500'> {player.bowlingStyle!=="N/A" && player.bowlingStyle} </span>
+                            <span className='text-gray-500'> {player.bowlingStyle} </span>
                         </div>
                         <div className="row flex justify-between items-center">
                             <div className="price">

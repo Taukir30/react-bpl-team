@@ -5,7 +5,7 @@ import BannerImg from '../../assets/banner-main.png'
 
 const Banner = () => {
     return (
-        <div className='banner w-[85%] mx-auto my-3 rounded-2xl bg-[#131313] sora' >
+        <div className='banner w-[85%] mx-auto mt-3 mb-15 rounded-2xl bg-[#131313] sora' >
             <div className='w-full min-h-[200px] rounded-2xl flex flex-col items-center gap-5 p-15 bg-center bg-cover' style={{ backgroundImage: `url(${BgImg})`}}>
                 <img src={BannerImg} alt="" />
                 <h1 className='text-white text-4xl font-bold'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
