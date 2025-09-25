@@ -1,8 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import titleIcon from '../../assets/Group.png'
 import flagIcon from '../../assets/Vector.png'
+import { toast } from 'react-toastify';
 
-const Card = ({player}) => {
+const Card = ({player, balance, setBalance, perchasedPlayers, setPerchasedPlayers}) => {
+
+    const [isSelected, setIsSelected] = useState(false);
+
+    const btn_action = (player) => {
+        
+        if( perchasedPlayers.length === 6) {
+            toast("Maximum Player Limit reached, Remove One or More Player to Add Another !!!");
+            return;
+        }
+
+        const playerPrice = parseInt(player.bplPrice, 10);
+
+        if(balance<playerPrice){
+            toast("Insufficient Balance!");
+            return;
+        }
+
+        setIsSelected(true), 
+        setBalance( balance - playerPrice );
+
+        const newPurchasedPlayers = [...perchasedPlayers, player];
+        setPerchasedPlayers(newPurchasedPlayers);
+    }
+
     return (
         <div className='sora'>
             <div className="card bg-base-100 w-auto shadow-sm border border-[#D9D9D9] rounded-xl">
@@ -36,7 +61,7 @@ const Card = ({player}) => {
                                 <span className='font-semibold'> {player.bplPrice} </span>
                             </div>
                             <div className="actions">
-                                <button className="btn btn-outline border-gray-200 h-8 text-xs font-light">Choose Player</button>
+                                <button disabled={isSelected} onClick={()=>{btn_action(player)}} className="btn btn-outline border-gray-200 h-8 text-xs font-light"> {isSelected? "Selected" : "Choose Player"} </button>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ const Banner = () => {
                 <img src={BannerImg} alt="" />
                 <h1 className='text-white text-4xl font-bold'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
                 <p className='text-gray-400 text-xl inter'>Beyond Boundaries Beyond Limits</p>
-                <a className='btn bg-[#E7FE29]' href="#">Claim Free Credit</a>
+                <a className='btn rounded-md outline outline-offset-6 outline-[#E7FE29] bg-[#E7FE29] font-bold' href="#">Claim Free Credit</a>
             </div>
         </div>
     );
