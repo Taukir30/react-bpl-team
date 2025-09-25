@@ -26,6 +26,8 @@ const Card = ({player, balance, setBalance, perchasedPlayers, setPerchasedPlayer
 
         const newPurchasedPlayers = [...perchasedPlayers, player];
         setPerchasedPlayers(newPurchasedPlayers);
+
+        toast("Player selected!");
     }
 
     return (
